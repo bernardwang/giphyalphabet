@@ -1,0 +1,46 @@
+{
+  "name": "madeby",
+  "version": "0.0.0",
+  "description": "",
+  "author": "Bernard Wang",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bw-vbnm/madeby"
+  },
+  "bugs": {
+    "url": "https://github.com/bw-vbnm/madeby/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "handlebars": "^4.0.5"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-eslint": "^5.0.0",
+    "babel-polyfill": "^6.5.0",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.5.0",
+    "babelify": "~7.2.0",
+    "browser-sync": "^2.11.1",
+    "browserify": "^13.0.0",
+    "eslint": "^2.2.0",
+    "eslint-config-airbnb": "^6.0.1",
+    "eslint-plugin-react": "^4.0.0",
+    "gulp": "~3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-cssnano": "^2.1.1",
+    "gulp-eslint": "^2.0.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-sass": "^2.2.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.3",
+    "lodash": "^4.5.1",
+    "vinyl-source-stream": "^1.0.0",
+    "watchify": "^3.7.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  }
+}

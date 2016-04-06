@@ -1,0 +1,35 @@
+<!doctype html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="mobile-web-app-capable" content="yes">
+
+    <title>giphy alphabet</title>
+
+    <link href="./assets/css/main.css" rel="stylesheet">
+  </head>
+  <body>
+		<header>
+			<h1>Experimental GIF Typeface</h1>
+		</header>
+		<main id="letters">
+			
+		</main>
+    <script src="./assets/js/app.js"> </script>
+    <script>
+      app();
+    </script>
+		
+		<script id="letter-template" type="text/x-handlebars-template">
+ 			<article class="letter">
+				{{#each this}}
+				<div class="letter-grid">
+					<img class="grid-img" src="{{this}}"/>
+				</div>
+				{{/each}}
+			</article>
+		</script>
+  </body>
+</html>

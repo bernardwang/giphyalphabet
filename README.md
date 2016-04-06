@@ -1,1 +1,1 @@
-# giphyalphabet
+# experimental gif typeface
